@@ -1,0 +1,19 @@
+# remove lutpack from ABC script for LUT2
+# reddit.com/r/yosys/comments/fe4zod/map_to_lut2/
+# scratchpad -set abc.script +strash;ifraig;scorr;dc2;dretime;strash;dch,-f;if;mfs2
+
+read_verilog NETLIST
+hierarchy -check -auto-top
+proc; opt_expr; opt_clean; check
+opt; wreduce; peepopt; opt_clean
+
+techmap -map +/cmp2lut.v -map +/cmp2lcu.v -D LUT_WIDTH=LUTSIZE
+alumacc; share; opt; opt_clean
+
+opt -full
+techmap; opt -full
+abc -lut LUTSIZE; opt -full
+opt_clean -purge; clean
+
+techmap -map src/lut2unisim.v
+write_verilog -noexpr -attr2comment out/DESIGN-lutLUTSIZE.v

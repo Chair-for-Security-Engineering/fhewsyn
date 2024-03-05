@@ -1,0 +1,381 @@
+{
+    "version": 3,
+    "library": "XILINX_UNISIM",
+    "gate_locations": {
+        "data_category": "generic",
+        "data_x_identifier": "X_COORDINATE",
+        "data_y_identifier": "Y_COORDINATE"
+    },
+    "cells": [
+        {
+            "name": "INV",
+            "types": [
+                "combinational"
+            ],
+            "pin_groups": [
+                {
+                    "name": "I",
+                    "direction": "input",
+                    "type": "none",
+                    "ascending": false,
+                    "start_index": 0,
+                    "pins": [
+                        {
+                            "name": "I",
+                            "direction": "input",
+                            "type": "none"
+                        }
+                    ]
+                },
+                {
+                    "name": "O",
+                    "direction": "output",
+                    "type": "none",
+                    "ascending": false,
+                    "start_index": 0,
+                    "pins": [
+                        {
+                            "name": "O",
+                            "direction": "output",
+                            "type": "none",
+                            "function": "(! I)"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "LUT1",
+            "types": [
+                "combinational",
+                "c_lut"
+            ],
+            "lut_config": {
+                "bit_order": "descending",
+                "data_category": "generic",
+                "data_identifier": "INIT"
+            },
+            "pin_groups": [
+                {
+                    "name": "I0",
+                    "direction": "input",
+                    "type": "none",
+                    "ascending": false,
+                    "start_index": 0,
+                    "pins": [
+                        {
+                            "name": "I0",
+                            "direction": "input",
+                            "type": "none"
+                        }
+                    ]
+                },
+                {
+                    "name": "O",
+                    "direction": "output",
+                    "type": "lut",
+                    "ascending": false,
+                    "start_index": 0,
+                    "pins": [
+                        {
+                            "name": "O",
+                            "direction": "output",
+                            "type": "lut"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "LUT2",
+            "types": [
+                "combinational",
+                "c_lut"
+            ],
+            "lut_config": {
+                "bit_order": "descending",
+                "data_category": "generic",
+                "data_identifier": "INIT"
+            },
+            "pin_groups": [
+                {
+                    "name": "I0",
+                    "direction": "input",
+                    "type": "none",
+                    "ascending": false,
+                    "start_index": 0,
+                    "pins": [
+                        {
+                            "name": "I0",
+                            "direction": "input",
+                            "type": "none"
+                        }
+                    ]
+                },
+                {
+                    "name": "I1",
+                    "direction": "input",
+                    "type": "none",
+                    "ascending": false,
+                    "start_index": 0,
+                    "pins": [
+                        {
+                            "name": "I1",
+                            "direction": "input",
+                            "type": "none"
+                        }
+                    ]
+                },
+                {
+                    "name": "O",
+                    "direction": "output",
+                    "type": "lut",
+                    "ascending": false,
+                    "start_index": 0,
+                    "pins": [
+                        {
+                            "name": "O",
+                            "direction": "output",
+                            "type": "lut"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "LUT3",
+            "types": [
+                "combinational",
+                "c_lut"
+            ],
+            "lut_config": {
+                "bit_order": "descending",
+                "data_category": "generic",
+                "data_identifier": "INIT"
+            },
+            "pin_groups": [
+                {
+                    "name": "I0",
+                    "direction": "input",
+                    "type": "none",
+                    "ascending": false,
+                    "start_index": 0,
+                    "pins": [
+                        {
+                            "name": "I0",
+                            "direction": "input",
+                            "type": "none"
+                        }
+                    ]
+                },
+                {
+                    "name": "I1",
+                    "direction": "input",
+                    "type": "none",
+                    "ascending": false,
+                    "start_index": 0,
+                    "pins": [
+                        {
+                            "name": "I1",
+                            "direction": "input",
+                            "type": "none"
+                        }
+                    ]
+                },
+                {
+                    "name": "I2",
+                    "direction": "input",
+                    "type": "none",
+                    "ascending": false,
+                    "start_index": 0,
+                    "pins": [
+                        {
+                            "name": "I2",
+                            "direction": "input",
+                            "type": "none"
+                        }
+                    ]
+                },
+                {
+                    "name": "O",
+                    "direction": "output",
+                    "type": "lut",
+                    "ascending": false,
+                    "start_index": 0,
+                    "pins": [
+                        {
+                            "name": "O",
+                            "direction": "output",
+                            "type": "lut"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "LUT4",
+            "types": [
+                "combinational",
+                "c_lut"
+            ],
+            "lut_config": {
+                "bit_order": "descending",
+                "data_category": "generic",
+                "data_identifier": "INIT"
+            },
+            "pin_groups": [
+                {
+                    "name": "I0",
+                    "direction": "input",
+                    "type": "none",
+                    "ascending": false,
+                    "start_index": 0,
+                    "pins": [
+                        {
+                            "name": "I0",
+                            "direction": "input",
+                            "type": "none"
+                        }
+                    ]
+                },
+                {
+                    "name": "I1",
+                    "direction": "input",
+                    "type": "none",
+                    "ascending": false,
+                    "start_index": 0,
+                    "pins": [
+                        {
+                            "name": "I1",
+                            "direction": "input",
+                            "type": "none"
+                        }
+                    ]
+                },
+                {
+                    "name": "I2",
+                    "direction": "input",
+                    "type": "none",
+                    "ascending": false,
+                    "start_index": 0,
+                    "pins": [
+                        {
+                            "name": "I2",
+                            "direction": "input",
+                            "type": "none"
+                        }
+                    ]
+                },
+                {
+                    "name": "I3",
+                    "direction": "input",
+                    "type": "none",
+                    "ascending": false,
+                    "start_index": 0,
+                    "pins": [
+                        {
+                            "name": "I3",
+                            "direction": "input",
+                            "type": "none"
+                        }
+                    ]
+                },
+                {
+                    "name": "O",
+                    "direction": "output",
+                    "type": "lut",
+                    "ascending": false,
+                    "start_index": 0,
+                    "pins": [
+                        {
+                            "name": "O",
+                            "direction": "output",
+                            "type": "lut"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "FA",
+            "types": [
+                "combinational",
+                "c_full_adder"
+            ],
+            "pin_groups": [
+                {
+                    "name": "A",
+                    "direction": "input",
+                    "type": "none",
+                    "ascending": false,
+                    "start_index": 0,
+                    "pins": [
+                        {
+                            "name": "A",
+                            "direction": "input",
+                            "type": "none"
+                        }
+                    ]
+                },
+                {
+                    "name": "B",
+                    "direction": "input",
+                    "type": "none",
+                    "ascending": false,
+                    "start_index": 0,
+                    "pins": [
+                        {
+                            "name": "B",
+                            "direction": "input",
+                            "type": "none"
+                        }
+                    ]
+                },
+                {
+                    "name": "CI",
+                    "direction": "input",
+                    "type": "carry",
+                    "ascending": false,
+                    "start_index": 0,
+                    "pins": [
+                        {
+                            "name": "CI",
+                            "direction": "input",
+                            "type": "carry"
+                        }
+                    ]
+                },
+                {
+                    "name": "S",
+                    "direction": "output",
+                    "type": "sum",
+                    "ascending": false,
+                    "start_index": 0,
+                    "pins": [
+                        {
+                            "name": "S",
+                            "direction": "output",
+                            "type": "sum",
+                            "function": "(A ^ B ^ CI)"
+                        }
+                    ]
+                },
+                {
+                    "name": "CO",
+                    "direction": "output",
+                    "type": "carry",
+                    "ascending": false,
+                    "start_index": 0,
+                    "pins": [
+                        {
+                            "name": "CO",
+                            "direction": "output",
+                            "type": "carry",
+                            "function": "((A & B) | (CI & (A ^ B)))"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,9 @@
+read_verilog NETLIST
+hierarchy -check -auto-top
+proc
+memory
+techmap; opt
+abc -liberty src/boolean.lib
+opt_clean -purge
+clean
+write_verilog out/DESIGN-google.v

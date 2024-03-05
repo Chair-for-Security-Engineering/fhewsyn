@@ -1,0 +1,11 @@
+read_verilog NETLIST
+hierarchy -check -auto-top
+proc; opt_expr; opt_clean; check
+opt; wreduce; peepopt; opt_clean
+
+opt -full
+techmap; opt -full
+abc -liberty src/boolean.lib; opt -full
+opt_clean -purge; clean
+
+write_verilog -noexpr -attr2comment out/DESIGN-boolean.v
